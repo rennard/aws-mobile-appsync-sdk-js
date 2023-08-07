@@ -616,7 +616,6 @@ export class AppSyncRealTimeSubscriptionHandshakeLink extends ApolloLink {
                 });
               }
           };
-          };
 
           this.awsRealTimeSocket.onmessage = (message: MessageEvent) => {
             logger(
